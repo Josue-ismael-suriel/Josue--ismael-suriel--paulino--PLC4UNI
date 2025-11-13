@@ -1904,6 +1904,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 119.38) (xy 129.54 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004f9aad-a263-4363-b114-476f6715b354")
+	)
+	(wire
+		(pts
+			(xy 115.57 104.14) (xy 129.54 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a70632-940f-4ffa-b6aa-810816b6fafc")
+	)
+	(wire
+		(pts
 			(xy 71.12 95.25) (xy 73.66 95.25)
 		)
 		(stroke
@@ -1931,6 +1951,16 @@
 			(type default)
 		)
 		(uuid "189dbf86-036f-4d7f-a898-e94e684f6d92")
+	)
+	(wire
+		(pts
+			(xy 119.38 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27566056-c6ba-4667-a638-bdc61c751b72")
 	)
 	(wire
 		(pts
@@ -1974,6 +2004,36 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 106.68) (xy 166.37 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "408e4c3c-bb44-4345-a1fe-b3d587e33f71")
+	)
+	(wire
+		(pts
+			(xy 118.11 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41dbf409-46fe-4555-a4c1-b5a1041beff4")
+	)
+	(wire
+		(pts
+			(xy 118.11 114.3) (xy 129.54 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46682856-4d82-4c6e-aba7-ab541a7ed02f")
+	)
+	(wire
+		(pts
 			(xy 166.37 80.01) (xy 162.56 80.01)
 		)
 		(stroke
@@ -1981,6 +2041,16 @@
 			(type default)
 		)
 		(uuid "49f2717e-5562-4ea9-80c3-3c6a512fdfaa")
+	)
+	(wire
+		(pts
+			(xy 160.02 96.52) (xy 166.37 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c244131-dac8-44c3-8d1e-e21bb48d5cf7")
 	)
 	(wire
 		(pts
@@ -1994,6 +2064,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 114.3) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a1dde33-82f3-4e63-8237-aab7a8db90bf")
+	)
+	(wire
+		(pts
 			(xy 144.78 127) (xy 144.78 130.81)
 		)
 		(stroke
@@ -2001,6 +2081,26 @@
 			(type default)
 		)
 		(uuid "5e38d558-204c-48ec-9724-06c362a24477")
+	)
+	(wire
+		(pts
+			(xy 160.02 109.22) (xy 166.37 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611641bd-1edb-481a-8a90-34d0d8a46fd1")
+	)
+	(wire
+		(pts
+			(xy 160.02 116.84) (xy 165.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619a1567-fc47-4de0-9917-55208ab05727")
 	)
 	(wire
 		(pts
@@ -2024,7 +2124,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 88.9) (xy 173.99 88.9)
+			(xy 160.02 88.9) (xy 175.26 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2044,6 +2144,86 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 111.76) (xy 166.37 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f70b591-8dc3-48e1-b3c2-5d85ad09dff3")
+	)
+	(wire
+		(pts
+			(xy 160.02 93.98) (xy 166.37 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801cc82d-01b6-4e39-bdb9-29840c4a6a27")
+	)
+	(wire
+		(pts
+			(xy 119.38 111.76) (xy 129.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855399cc-8ac3-444b-b6b9-b19aa13a8c50")
+	)
+	(wire
+		(pts
+			(xy 115.57 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa5f7ec-4551-41a8-a63c-e2ec72395622")
+	)
+	(wire
+		(pts
+			(xy 114.3 116.84) (xy 129.54 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916f3b73-25a0-45d8-9716-1e44bb7a3e0e")
+	)
+	(wire
+		(pts
+			(xy 115.57 120.65) (xy 124.46 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929ab6e0-4876-468b-a8c3-379c4f2fe6c0")
+	)
+	(wire
+		(pts
+			(xy 160.02 99.06) (xy 166.37 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b8ad19f-720a-4e23-a3be-5bc53b20913c")
+	)
+	(wire
+		(pts
+			(xy 160.02 104.14) (xy 166.37 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a22f30ff-bfca-42ef-bb2f-11ae13ae57e9")
+	)
+	(wire
+		(pts
 			(xy 64.77 90.17) (xy 71.12 90.17)
 		)
 		(stroke
@@ -2054,6 +2234,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7a25ac-6922-4884-883c-4076cde0f728")
+	)
+	(wire
+		(pts
 			(xy 71.12 91.44) (xy 71.12 90.17)
 		)
 		(stroke
@@ -2061,6 +2251,16 @@
 			(type default)
 		)
 		(uuid "afcee753-c21f-4bf6-a88c-8995a55f9a3d")
+	)
+	(wire
+		(pts
+			(xy 160.02 119.38) (xy 165.1 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e2ea60-a9fb-4c91-9851-2ee3a85b66a0")
 	)
 	(wire
 		(pts
@@ -2094,13 +2294,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 173.99 90.17)
+			(xy 124.46 120.65) (xy 124.46 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d508c7d9-48bc-491c-a094-26d6c9c42c7f")
+		(uuid "d0fe8e27-8971-4b90-b831-f1dc0069f780")
 	)
 	(wire
 		(pts
@@ -2124,6 +2324,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e32425-8650-4d83-bd96-c97f5aaa0c2f")
+	)
+	(wire
+		(pts
 			(xy 71.12 97.79) (xy 71.12 95.25)
 		)
 		(stroke
@@ -2131,6 +2341,26 @@
 			(type default)
 		)
 		(uuid "e978c92d-970e-4036-96d6-3c4de5339690")
+	)
+	(wire
+		(pts
+			(xy 160.02 101.6) (xy 166.37 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba81e90-2398-4c7e-a92c-4d5193893c36")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbf80d55-5311-45fc-8919-afcde05e1605")
 	)
 	(label "USB-"
 		(at 83.82 91.44 0)
@@ -2153,7 +2383,7 @@
 		(uuid "4b4b3a46-b9b5-44fc-98ca-e2274d0d9cf1")
 	)
 	(label "USB+"
-		(at 173.99 90.17 0)
+		(at 175.26 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2174,7 +2404,7 @@
 	)
 	(hierarchical_label "IN_NPN"
 		(shape input)
-		(at 234.95 130.81 180)
+		(at 114.3 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2200,7 +2430,7 @@
 	)
 	(hierarchical_label "IN_NPN1_Opto"
 		(shape input)
-		(at 241.3 123.19 180)
+		(at 119.38 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2213,7 +2443,7 @@
 	)
 	(hierarchical_label "OUT_RELAY2"
 		(shape output)
-		(at 227.33 97.79 0)
+		(at 166.37 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2224,7 +2454,7 @@
 	)
 	(hierarchical_label "PNP_OUT3"
 		(shape output)
-		(at 227.33 87.63 0)
+		(at 166.37 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2235,7 +2465,7 @@
 	)
 	(hierarchical_label "IN_NPN2_Opto"
 		(shape input)
-		(at 241.3 120.65 180)
+		(at 118.11 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2248,7 +2478,7 @@
 	)
 	(hierarchical_label "IN_PNP1_Opto"
 		(shape input)
-		(at 241.3 128.27 180)
+		(at 118.11 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2261,18 +2491,18 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 184.15 106.68 0)
+		(at 124.46 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4f4699c2-15a4-41e5-a3cb-f13d79e8f775")
 	)
 	(hierarchical_label "NPN_OUT1"
 		(shape output)
-		(at 227.33 100.33 0)
+		(at 166.37 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2283,7 +2513,7 @@
 	)
 	(hierarchical_label "IN_NPN2"
 		(shape input)
-		(at 236.22 133.35 180)
+		(at 115.57 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2296,7 +2526,7 @@
 	)
 	(hierarchical_label "ADC_IN_3V3"
 		(shape input)
-		(at 104.14 113.03 0)
+		(at 165.1 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2307,7 +2537,7 @@
 	)
 	(hierarchical_label "OUT_RELAY1"
 		(shape output)
-		(at 227.33 95.25 0)
+		(at 166.37 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2318,7 +2548,7 @@
 	)
 	(hierarchical_label "IN_PNP1"
 		(shape input)
-		(at 236.22 115.57 180)
+		(at 115.57 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2331,7 +2561,7 @@
 	)
 	(hierarchical_label "Out_4-20mA"
 		(shape output)
-		(at 227.33 77.47 0)
+		(at 165.1 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2342,7 +2572,7 @@
 	)
 	(hierarchical_label "PNP_OUT2"
 		(shape output)
-		(at 227.33 85.09 0)
+		(at 166.37 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2353,7 +2583,7 @@
 	)
 	(hierarchical_label "NPN_OUT2"
 		(shape output)
-		(at 227.33 102.87 0)
+		(at 166.37 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2364,7 +2594,7 @@
 	)
 	(hierarchical_label "PNP_OUT1"
 		(shape output)
-		(at 227.33 82.55 0)
+		(at 166.37 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2375,7 +2605,7 @@
 	)
 	(hierarchical_label "Opto_NPN2"
 		(shape output)
-		(at 227.33 92.71 0)
+		(at 166.37 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2399,7 +2629,7 @@
 	)
 	(hierarchical_label "Out_4-20mA_2"
 		(shape output)
-		(at 227.33 80.01 0)
+		(at 165.1 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2410,18 +2640,18 @@
 	)
 	(hierarchical_label "SCL"
 		(shape output)
-		(at 184.15 109.22 0)
+		(at 124.46 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d6fa4bdc-cc1e-40fc-80eb-86803a3299bc")
 	)
 	(hierarchical_label "Opto_NPN"
 		(shape output)
-		(at 227.33 90.17 0)
+		(at 166.37 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2432,7 +2662,7 @@
 	)
 	(hierarchical_label "IN_PNP2"
 		(shape input)
-		(at 236.22 118.11 180)
+		(at 115.57 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2445,7 +2675,7 @@
 	)
 	(hierarchical_label "IN_PNP2_Opto"
 		(shape input)
-		(at 241.3 125.73 180)
+		(at 119.38 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
