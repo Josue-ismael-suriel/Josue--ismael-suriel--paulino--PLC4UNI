@@ -1,0 +1,145 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88c79f17-94e5-449f-ad8d-8463d031d1ca")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 210.82 90.17) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b4b75a4-bde0-4774-b4e5-cbd280855ff7")
+	)
+	(wire
+		(pts
+			(xy 210.82 93.98) (xy 222.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b3c25b-4cdb-4bf4-b63f-b38a1cb344c8")
+	)
+	(hierarchical_label "con-a"
+		(shape bidirectional)
+		(at 222.25 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "227a408f-4c45-4d01-9e36-a16d910b303e")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 97.79 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2f432f0f-24a5-44f1-9178-1d3dffcd5ad3")
+	)
+	(hierarchical_label "DOUT"
+		(shape output)
+		(at 97.79 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48e4e9aa-2e2e-4f0f-ad99-0715e4018cb6")
+	)
+	(hierarchical_label "con-b"
+		(shape bidirectional)
+		(at 222.25 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c3aaa6ca-c464-4490-97e6-c0faeeed9f60")
+	)
+	(hierarchical_label "CON"
+		(shape input)
+		(at 97.79 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5cf053a-c22c-4b40-a81d-cd90770823db")
+	)
+	(sheet
+		(at 172.72 82.55)
+		(size 38.1 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8cd41394-2f63-4fab-828d-268eea6a424c")
+		(property "Sheetname" "rs485_protection"
+			(at 172.72 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rs485_protection.kicad_sch"
+			(at 172.72 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RS485-A" bidirectional
+			(at 210.82 90.17 0)
+			(uuid "6f9d7855-1d3b-4c2b-ab2d-77823bded702")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS485-B" bidirectional
+			(at 210.82 93.98 0)
+			(uuid "8fe66ada-030c-4ca9-997f-0b78d9b28950")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "12Board-PLC4UNI-G1W"
+				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/97147ee3-ae03-4b46-930a-a7427349894f"
+					(page "5")
+				)
+			)
+		)
+	)
+)

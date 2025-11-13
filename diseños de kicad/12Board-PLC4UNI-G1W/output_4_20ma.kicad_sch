@@ -1,0 +1,19 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5031a812-144d-4360-b01d-504184e4e47d")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "Out_4-20mA"
+		(shape output)
+		(at 127 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13d76648-e9a3-4bef-b627-5c7421aec172")
+	)
+)
