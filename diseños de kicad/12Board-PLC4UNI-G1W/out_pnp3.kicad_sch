@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "f38c234d-1961-44c6-b348-2abbe93c44ab")
+	(uuid "8a0f482d-b0a2-4830-b9f7-7b124837453b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Resistor_AKL:R_0603"

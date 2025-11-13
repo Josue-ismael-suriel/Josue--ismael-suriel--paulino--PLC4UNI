@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "dc32f279-3838-49ff-85d6-3ff582058f12")
+	(uuid "341fccfe-f502-45a9-a4d1-ee88051769b7")
 	(paper "A4")
 	(lib_symbols
 		(symbol "PCM_Capacitor_US_AKL:C_0603"

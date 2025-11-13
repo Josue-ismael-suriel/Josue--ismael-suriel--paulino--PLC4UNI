@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "6f4c9947-97b9-4e02-85a2-45e85379dba3")
+	(uuid "b1c9b611-32ee-415b-8fe3-44f3cc4d0d0a")
 	(paper "A4")
 	(lib_symbols
 		(symbol "GP8211S-TC50:GNDPWR"
@@ -3045,6 +3045,88 @@
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401"
 					(page "29")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 242.57 120.65)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "de0d3f8d-f0bf-42b9-bba4-cef82f4ddd1e")
+		(property "Sheetname" "fuente"
+			(at 242.57 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fuente.kicad_sch"
+			(at 242.57 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SCLK" bidirectional
+			(at 267.97 124.46 0)
+			(uuid "897e5f6e-7755-4e07-8ffb-2f43e2511561")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 267.97 127 0)
+			(uuid "8f52587a-a872-469b-b375-755c59b10657")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SEL" output
+			(at 267.97 130.81 0)
+			(uuid "97896f1e-a37e-4a21-bc1e-f70df927eb31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VOLTAGE_AOUTPUT" output
+			(at 242.57 125.73 180)
+			(uuid "ea6e315d-3cd0-4cca-9856-dbd7a2a1d273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "12Board-PLC4UNI-G1W"
+				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401"
+					(page "30")
 				)
 			)
 		)

@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "507f8884-6f69-4506-bf4f-5278dba4225c")
+	(uuid "cfa66a50-c389-4125-abf6-1590b0059e06")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Optocoupler_AKL:FOD817S"
