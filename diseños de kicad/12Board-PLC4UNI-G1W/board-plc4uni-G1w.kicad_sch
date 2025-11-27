@@ -2760,6 +2760,68 @@
 		)
 	)
 	(sheet
+		(at 242.57 142.24)
+		(size 29.21 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bd24cd09-5135-43b6-adf3-285769946b7d")
+		(property "Sheetname" "entrada3.3v"
+			(at 242.57 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "entrada3.3v.kicad_sch"
+			(at 242.57 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+Batt" input
+			(at 242.57 146.05 180)
+			(uuid "77241a22-ca3a-4655-aacd-70c3747d46ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3V" output
+			(at 242.57 149.86 180)
+			(uuid "80bd87b7-ad95-4c1a-8880-6fa65050a7b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "12Board-PLC4UNI-G1W"
+				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401"
+					(page "31")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 57.15 130.81)
 		(size 21.59 5.08)
 		(exclude_from_sim no)

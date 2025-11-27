@@ -729,6 +729,10 @@
     [
       "de0d3f8d-f0bf-42b9-bba4-cef82f4ddd1e",
       "fuente"
+    ],
+    [
+      "bd24cd09-5135-43b6-adf3-285769946b7d",
+      "entrada3.3v"
     ]
   ],
   "text_variables": {}

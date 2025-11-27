@@ -529,131 +529,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -899,13 +774,33 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 76.2) (xy 125.73 78.74)
+			(xy 125.73 100.33) (xy 125.73 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b25ca23-5f3d-47b9-b5ce-2f11390d77d1")
+		(uuid "275e8429-acd1-4d2a-827b-4ca2b2f3b740")
+	)
+	(wire
+		(pts
+			(xy 125.73 90.17) (xy 125.73 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ef710f-bff7-4672-a11b-3fbb952a4026")
+	)
+	(wire
+		(pts
+			(xy 109.22 88.9) (xy 116.84 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be59294-316f-4c2f-9841-9d40d9030d3f")
 	)
 	(wire
 		(pts
@@ -929,23 +824,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 104.14) (xy 125.73 104.14)
+			(xy 125.73 88.9) (xy 124.46 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5c5f23f-311d-44e6-bbcc-08c8a05aa6dc")
-	)
-	(wire
-		(pts
-			(xy 125.73 104.14) (xy 125.73 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5f889f5-e85e-45ce-92ad-8d9975833aa9")
+		(uuid "dba99849-4905-4ca2-9b7b-0e554056268c")
 	)
 	(wire
 		(pts
@@ -967,16 +852,6 @@
 		)
 		(uuid "f1fd9214-c92b-42cd-8d5e-f326bc960156")
 	)
-	(wire
-		(pts
-			(xy 125.73 86.36) (xy 125.73 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8e281f2-4a06-47fe-bfc7-05bf50cb668f")
-	)
 	(hierarchical_label "OUT"
 		(shape output)
 		(at 142.24 87.63 0)
@@ -990,7 +865,7 @@
 	)
 	(hierarchical_label "IN"
 		(shape input)
-		(at 113.03 104.14 180)
+		(at 109.22 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1153,17 +1028,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 125.73 76.2 0)
+		(lib_id "power:GND")
+		(at 125.73 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a04fd0ef-0948-4531-bddb-35c07ae4e14d")
-		(property "Reference" "#PWR050"
-			(at 125.73 80.01 0)
+		(uuid "b9417f3a-7ff3-4afc-9a81-6a0e8e534c3b")
+		(property "Reference" "#PWR065"
+			(at 125.73 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,8 +1046,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 125.73 71.12 0)
+		(property "Value" "GND"
+			(at 125.73 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 76.2 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +1064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 76.2 0)
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,8 +1072,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 125.73 76.2 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,12 +1082,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e35bc6a9-1ebe-47ae-be91-1f52b709c329")
+			(uuid "6888fca4-5a43-4e70-a41a-5cfec60f0148")
 		)
 		(instances
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/80312332-f227-48d7-8724-587b8d7b3b9a"
-					(reference "#PWR050")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1220,7 +1095,7 @@
 	)
 	(symbol
 		(lib_id "Resistor_AKL:R_0603")
-		(at 125.73 82.55 180)
+		(at 120.65 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1229,25 +1104,23 @@
 		(fields_autoplaced yes)
 		(uuid "cad2e9c9-c96a-48be-ba81-565c9d92e69c")
 		(property "Reference" "R33"
-			(at 128.27 81.2799 0)
+			(at 120.65 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "2.4k"
-			(at 128.27 83.8199 0)
+			(at 120.65 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD_AKL:R_0603_1608Metric"
-			(at 125.73 71.12 0)
+			(at 109.22 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 82.55 0)
+			(at 120.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1265,7 +1138,7 @@
 			)
 		)
 		(property "Description" "SMD 0603 Chip Resistor, European Symbol, Alternate KiCad Library"
-			(at 125.73 82.55 0)
+			(at 120.65 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
