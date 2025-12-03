@@ -402,6 +402,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 95.25) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35549675-dc47-477c-9525-2ab4a3827d7a")
+	)
+	(wire
+		(pts
 			(xy 151.13 24.13) (xy 160.02 24.13)
 		)
 		(stroke
@@ -409,6 +419,16 @@
 			(type default)
 		)
 		(uuid "425ce296-df2d-4171-8208-edb97e7f0967")
+	)
+	(wire
+		(pts
+			(xy 243.84 93.98) (xy 246.38 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "448d32cb-7c92-4bef-9180-da72a0f93d01")
 	)
 	(wire
 		(pts
@@ -842,6 +862,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 95.25) (xy 243.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0a7b6d-e623-462b-b5b8-3a3460bcede1")
+	)
+	(wire
+		(pts
 			(xy 48.26 123.19) (xy 57.15 123.19)
 		)
 		(stroke
@@ -989,6 +1019,16 @@
 			(type default)
 		)
 		(uuid "fa28ef6e-bd75-4c82-9d98-483de1092e30")
+	)
+	(wire
+		(pts
+			(xy 238.76 90.17) (xy 246.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa4ccdda-81a6-47b9-8831-dad544fabc08")
 	)
 	(wire
 		(pts
@@ -1144,6 +1184,17 @@
 		)
 		(uuid "854994c0-68d0-425b-98ff-49b21e806498")
 	)
+	(hierarchical_label "0V-SOURCE"
+		(shape output)
+		(at 238.76 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87446742-07c7-4fd7-98a0-d79897188845")
+	)
 	(hierarchical_label "IN_NPN1_Opto"
 		(shape input)
 		(at 48.26 99.06 180)
@@ -1156,6 +1207,17 @@
 			(justify right)
 		)
 		(uuid "afbae9c4-b722-4504-9914-8d822cbde5a5")
+	)
+	(hierarchical_label "24V-SOURCE"
+		(shape input)
+		(at 238.76 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb580764-1978-4e84-acb2-8db128a001a3")
 	)
 	(hierarchical_label "NPN_OUT2"
 		(shape output)
@@ -3189,6 +3251,68 @@
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401"
 					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 246.38 87.63)
+		(size 24.13 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dee64336-8ffb-410f-88f7-b3f5eafe9da9")
+		(property "Sheetname" "proteccion24"
+			(at 246.38 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "proteccion24.kicad_sch"
+			(at 246.38 98.3746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+24V" input
+			(at 246.38 90.17 180)
+			(uuid "fdd6d01a-e0c3-4fee-b262-0720a0a2117e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "0V" output
+			(at 246.38 93.98 180)
+			(uuid "36f8752c-9e31-4300-8d34-8d88aa1722b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "12Board-PLC4UNI-G1W"
+				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401"
+					(page "32")
 				)
 			)
 		)

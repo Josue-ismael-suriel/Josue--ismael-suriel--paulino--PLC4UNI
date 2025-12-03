@@ -733,6 +733,10 @@
     [
       "bd24cd09-5135-43b6-adf3-285769946b7d",
       "entrada3.3v"
+    ],
+    [
+      "dee64336-8ffb-410f-88f7-b3f5eafe9da9",
+      "proteccion24"
     ]
   ],
   "text_variables": {}
