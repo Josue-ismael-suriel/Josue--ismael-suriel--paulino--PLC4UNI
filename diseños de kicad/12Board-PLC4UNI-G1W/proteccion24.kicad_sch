@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "92fbf11b-361e-44f4-8321-7167ba6f9241")
+	(uuid "b75c1bcb-07ce-4e30-b0c8-c50aa64cb964")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:Fuse"
