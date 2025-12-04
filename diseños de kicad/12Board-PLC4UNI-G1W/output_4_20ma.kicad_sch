@@ -678,17 +678,6 @@
 		)
 		(uuid "bae90241-3bc3-4a43-9562-4fb184d3be65")
 	)
-	(hierarchical_label "Out_4-20mA"
-		(shape output)
-		(at 127 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13d76648-e9a3-4bef-b627-5c7421aec172")
-	)
 	(hierarchical_label "IN_mA"
 		(shape input)
 		(at 127 113.03 180)

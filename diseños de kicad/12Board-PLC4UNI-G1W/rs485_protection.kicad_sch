@@ -899,7 +899,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "135c9f07-104b-44ee-9805-5cbe783d427a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -949,7 +949,7 @@
 		(instances
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/97147ee3-ae03-4b46-930a-a7427349894f/8cd41394-2f63-4fab-828d-268eea6a424c"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -965,7 +965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8164197-39c8-47dd-bbd8-a426fda21287")
-		(property "Reference" "D?"
+		(property "Reference" "D5"
 			(at 156.21 94.5514 90)
 			(effects
 				(font
@@ -1031,7 +1031,7 @@
 		(instances
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/97147ee3-ae03-4b46-930a-a7427349894f/8cd41394-2f63-4fab-828d-268eea6a424c"
-					(reference "D?")
+					(reference "D5")
 					(unit 1)
 				)
 			)

@@ -1843,7 +1843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "12b9f526-b16f-419d-94cb-4ef775a29221")
-		(property "Reference" "Q?"
+		(property "Reference" "Q11"
 			(at 157.48 99.0599 0)
 			(effects
 				(font
@@ -1909,7 +1909,7 @@
 		(instances
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/85a80b9b-64d5-4833-b609-948fcc748275"
-					(reference "Q?")
+					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -1994,7 +1994,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "31a32839-0e87-4378-8f3c-74da65c69436")
-		(property "Reference" "OC?"
+		(property "Reference" "OC8"
 			(at 130.81 91.4399 0)
 			(effects
 				(font
@@ -2066,7 +2066,7 @@
 		(instances
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/85a80b9b-64d5-4833-b609-948fcc748275"
-					(reference "OC?")
+					(reference "OC8")
 					(unit 1)
 				)
 			)
@@ -2350,7 +2350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95afca37-786d-4fce-be33-dcf4def4b0d0")
-		(property "Reference" "K?"
+		(property "Reference" "K2"
 			(at 171.45 82.5499 0)
 			(effects
 				(font
@@ -2415,7 +2415,7 @@
 		(instances
 			(project "12Board-PLC4UNI-G1W"
 				(path "/6879a69d-f695-48f8-b9bf-6eca45a0aeb9/dec84266-09cb-480d-928b-b373c3576401/85a80b9b-64d5-4833-b609-948fcc748275"
-					(reference "K?")
+					(reference "K2")
 					(unit 1)
 				)
 			)
